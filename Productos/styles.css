@@ -1,0 +1,92 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/171fc7bd-3978-44d2-819c-ee56cff1fa60/d4yesjq-80cfd763-e4a1-43c5-9d90-5b7be67ddfb9.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE3MWZjN2JkLTM5NzgtNDRkMi04MTljLWVlNTZjZmYxZmE2MFwvZDR5ZXNqcS04MGNmZDc2My1lNGExLTQzYzUtOWQ5MC01YjdiZTY3ZGRmYjkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.mbH37W-DuI-AL-Pp7fCPeqSUX7OThp1znehNYMN_c_I);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    width:100%;
+    overflow-x: hidden;
+}
+main{
+    width: 100%;
+    height: 100%;
+}   
+header{
+    background-color: black;
+}
+.fondo2 { 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:-20px;
+}
+.logo {
+    height: 80px;
+    align-items: center;
+    width: 20%;
+}
+.menu {
+    font-family: 'Koulen', cursive;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: flex-end;
+    height: 80px;
+    width: 100%;
+    margin-right: 20px;
+    align-self: auto;
+}
+.menuitem {  
+    text-align: center;
+    align-self: auto;
+    font-size:2.5rem;
+    width: 56%;
+}
+table{
+    border: none;
+    width: 100%;
+}
+tr{
+   border: none;
+   margin:20px auto;
+   display: flex;
+   justify-content: space-between;
+}
+td{
+    height: 200px;
+    border:black solid 5px;
+
+}
+.tipo{
+    font-family: 'Koulen';
+    font-size: 40px;
+}
+footer {
+    font-family: 'Koulen';
+    font-size: 18px;
+    font-weight: lighter;
+    bottom:1%;
+    font-style:inherit;
+    color: rgb(211, 211, 211);
+    background-color: black;
+}
+h4{
+    margin-left: 5px;
+}
+.hola {
+   display:flex;
+   justify-content: flex-end;
+   margin-left:94%;
+   bottom: 0%;
+   position:fixed;
+}
+ a:visited { 
+    text-decoration: none; 
+    color: white;
+}  
