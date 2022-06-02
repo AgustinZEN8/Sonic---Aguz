@@ -14,37 +14,13 @@ main{
 header{
     background-color: black;
 }
-.fondo2 { 
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right:-20px;
+.logo{
+    margin-left: 5%;
 }
-.logo {
-    height: 80px;
-    align-items: center;
-    width: 20%;
-}
-.menu {
+.navitem{
     font-family: 'Koulen', cursive;
     color: white;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-content: flex-end;
-    height: 80px;
-    width: 100%;
-    margin-right: 20px;
-    align-self: auto;
-}
-.menuitem {  
-    text-align: center;
-    align-self: auto;
-    font-size:2.5rem;
-    width: 56%;
+    font-size: 2.4rem;
 }
 #sega{
     display: flex;

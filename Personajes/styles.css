@@ -18,30 +18,13 @@ header{
     justify-content: space-between;
     margin-right:-20px;
 }
-.logo {
-    height: 80px;
-    align-items: center;
-    width: 20%;
+.logo{
+    margin-left: 5%;
 }
-.menu {
+.navitem{
     font-family: 'Koulen', cursive;
     color: white;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-content: flex-end;
-    height: 80px;
-    width: 100%;
-    margin-right: 20px;
-    align-self: auto;
-}
-.menuitem {  
-    text-align: center;
-    align-self: auto;
-    font-size:2.5rem;
-    width: 56%;
+    font-size: 2.4rem;
 }
 .contenedor{
     display: grid;
@@ -67,6 +50,9 @@ h3{
     font-size: larger;
     font-size: 23px;
     font-family: unset;
+    color: black;
+    font-size: bolder;
+    font-weight: bold;
     font-family: 'Koulen', cursive;
 }
 
@@ -106,6 +92,7 @@ p{
     align-self: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    color: black;
     font-size: 1.05rem;
     display: flex;
     flex: nowrap;   
@@ -117,8 +104,8 @@ footer {
     font-style:inherit;
     color: rgb(211, 211, 211);
     background-color: black;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+    position:absolute;
+    width:100%;
 }
 h4{
     margin:25px auto;

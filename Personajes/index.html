@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sonic - Personajes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="shortcut icon" href="/Assets/favicons.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -18,26 +19,26 @@
 </head>
 <body> 
     <header>
-        <section class="fondo2" >
-            <img src="/Assets/LOGO.png" class="logo" alt="logo de sonic">
-            <ul class="menu">
-                <li class="menuitem">
-                    <a href="/Home/index.html" style="text-decoration:none;"> Inicio </a>
-                </li>
-                <li class="menuitem">
-                    <a href="/Productos/index.html" style="text-decoration:none;" > Productos </a>
-                </li>
-                <li class="menuitem">
-                    <a href="/Personajes/index.html" style="text-decoration:none;" > Personajes </a>
-                </li>
-                <li class="menuitem">
-                    <a href="/Contactos/index.html" style="text-decoration:none;"> Contactos </a>
-                </li>
-                <li class="menuitem">
-                    <a href="/About/index.html" style="text-decoration:none;">About</a>
-                </li>
-        </ul>
-        </section>
+        <div class="row">
+            <div class="col-lg-2 p-3 bg-black text-center">
+              <img src="/Assets/LOGO.png" class="logo" width="190px" height="60px"  alt="logo de sonic">
+            </div>
+            <div class="col-lg-2 p-3 bg-black text-center">
+              <a href="/Home/index.html" class="navitem" style="text-decoration:none;"> Inicio </a>
+            </div>
+            <div class="col-lg-2 p-3 bg-black text-center">
+              <a href="/Productos/index.html" class="navitem" style="text-decoration:none;" > Productos </a>
+            </div>
+            <div class="col-lg-2 p-3 bg-black text-center">
+              <a href="/Personajes/index.html" class="navitem" style="text-decoration:none;" > Personajes </a>
+            </div>
+            <div class="col-lg-2 p-3 bg-black text-center">
+              <a href="/Contactos/index.html" class="navitem" style="text-decoration:none;"> Contactos </a>
+            </div>
+            <div class="col-lg-2 p-3 bg-black text-center">
+              <a href="/About/index.html" class="navitem" style="text-decoration:none;"> About </a>
+            </div>
+        </div>
     </header>
     <main>
         <div class="contenedor"> 
@@ -67,9 +68,7 @@
                     <h3> Knuckles el equidna</h3>
                     <p> 
                         es un personaje de la saga de videojuegos Sonic the Hedgehog. Es un equidna rojo antropomórfico de 16 años de edad, que es a la vez poderoso físicamente y muy resistente. También es el guardián de la Master Emerald, una poderosa joya antigua que solemnemente deber proteger de cualquiera que busque abusar de su poder. También es el único descendiente superviviente de la raza equidna del Clan Knuckles. Sus rasgos dominantes son su súper fuerza y los dos nudillos en forma de púas en cada uno de sus guantes, de donde se deriva su nombre, los cuales puede usar para cavar y escalar paredes. También puede atrapar el viento debajo de sus rastas para deslizarse por el aire.
-                    </p>
-                    <p>
-                        El nombre de Knuckles se deriva de los cuatro nudillos, dos en cada mano y que son en realidad pinchos afilados. De acuerdo con encuestas oficiales de Sonic Team, Knuckles es el cuarto personaje más popular de la serie, detrás de Tails, Shadow y Sonic.
+                        El nombre de Knuckles se deriva de los cuatro nudillos, dos en cada mano y que son en realidad pinchos afilados.
                     </p>
                 </div>
             </div>
@@ -97,18 +96,19 @@
                 <div class="info">
                     <h3> Doctor Eggman </h3>
                     <p> 
-                        es el antagonista principal de la serie Sonic the Hedgehog. Es un científico obeso, con un coeficiente intelectual de 300 y su sueño es dominar el mundo en toda su historia. Constantes veces, Eggman intenta crear su imperio pero todos sus planes sobre eso siempre son infinitamente frustrados por Sonic the Hedgehog, su archienemigo y sus amigos. Eggman es un genio malvado de mal genio, estridente, pomposo y cruel que constantemente planea apoderarse del mundo. Su motivación principal en la mayoría de los juegos es su creencia psicótica de auto-derecho. Arrogante y narcisista, construye innumerables maravillas tecnológicas a su propia imagen para alimentar su ego masivo, generalmente reforzado por su objetivo de finalmente construir el Eggman Empire, y no le importa dónde comienza. Su narcisismo es tal que cuando descubrió el Phantom Ruby, lo que mostró como su deseo más profundo fue Eggmanland completo con varias etiquetas de sus nombres y estatuas para sí mismo, y se entristeció cuando terminó la ilusión.
+                        es el antagonista principal de la serie Sonic the Hedgehog. Es un científico obeso, con un coeficiente intelectual de 300 y su sueño es dominar el mundo en toda su historia. Constantes veces, Eggman intenta crear su imperio pero todos sus planes sobre eso siempre son infinitamente frustrados por Sonic the Hedgehog, su archienemigo y sus amigos. Eggman es un genio malvado de mal genio, estridente, pomposo y cruel que constantemente planea apoderarse del mundo. Su motivación principal en la mayoría de los juegos es su creencia psicótica de auto-derecho. Arrogante y narcisista, construye innumerables maravillas tecnológicas a su propia imagen para alimentar su ego masivo, generalmente reforzado por su objetivo de finalmente construir el Eggman Empire, y no le importa dónde comienza. 
                     </p>
                 </div>
             </div>       
         </div>
     </main>
     <footer>
-        <h4>© SEGA - Paginada creada por Agustin Martinez.</h4>
+        <h4 class="footer p-1 m-1">© SEGA - Paginada creada por Agustin Martinez</h4>
         <div class="hola" >
-            <img src="/Assets/Sonic hola.gif" alt="un sonic saludando" width="100px" srcset="">
+          <img src="/Assets/Sonic hola.gif" alt="sonic saludando" width="100px" srcset="un sonic saludando">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="/js/wow.min.js"></script>
     <script>
         new WOW().init();
