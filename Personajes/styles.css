@@ -11,15 +11,9 @@ body {
 header{
     background-color: black;
 }
-.fondo2 { 
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right:-20px;
-}
-.logo{
-    margin-left: 5%;
+
+.row{
+    background-color: black;
 }
 .navitem{
     font-family: 'Koulen', cursive;
@@ -31,6 +25,7 @@ header{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr ;
     padding: 0.4%;
+    height: auto;
 }
 .ficha{
     display: flex;
@@ -41,10 +36,16 @@ header{
     margin: 1.2%;
     height: 410px;
     transition: 1s;
-    transform: scale(1)
+    transform: scale(1);
+    height: auto;
 }
 .ficha:hover{
     transform: scale(1.02);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 h3{
     font-size: larger;
@@ -85,17 +86,15 @@ h3{
     align-self: center;
     margin:2%;
 }
-
 p{
     margin: 0%;
     display: flex;
+    flex: nowrap;
     align-self: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: black;
     font-size: 1.05rem;
-    display: flex;
-    flex: nowrap;   
 }
 footer {
     font-family: 'Koulen';
@@ -122,4 +121,27 @@ h4{
  a:visited { 
     text-decoration: none; 
     color: white;
+}
+
+@media (max-width:1300px){
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: auto;
+}
+.ficha{
+    display: flex;
+    flex-direction: column;
+    border: 8px black;
+    border-style: solid;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+}
+.ficha:hover{
+    transform: scale(1.02);
+    display: none;
+}
 }

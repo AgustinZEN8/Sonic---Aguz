@@ -3,8 +3,10 @@
     margin: 0%;
 }
 body {
-
     background:linear-gradient(rgb(0, 62, 112),rgb(133, 200, 255))
+}
+.row m-0{
+    background-color: black;
 }
 .navitem{
     font-family: 'Koulen', cursive;
