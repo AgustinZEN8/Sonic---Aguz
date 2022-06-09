@@ -15,6 +15,9 @@ body{
                 font-family:$fuente;
                 color: white;
                 font-size: 2.4rem;
+                &:hover{
+                    color: rgb(9, 86, 230);
+                }
             }
         }
     }   

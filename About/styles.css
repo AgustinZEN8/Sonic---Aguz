@@ -19,6 +19,10 @@ body header .row .navitem {
   font-size: 2.4rem;
 }
 
+body header .row .navitem:hover {
+  color: #0956e6;
+}
+
 body main .hola {
   display: -webkit-box;
   display: -ms-flexbox;
