@@ -118,10 +118,6 @@ h4{
    position:fixed;
    display: none;
 }
- a:visited { 
-    text-decoration: none; 
-    color: white;
-}
 
 @media (max-width:1300px){
 .contenedor{
