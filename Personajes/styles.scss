@@ -5,6 +5,21 @@ $fuente:'Koulen', cursive;
     margin: 0%;
 }
 
+$colors1:(rgb(142, 177, 255),rgb(41, 77, 177));
+$colors2:(rgb(245, 243, 141),rgb(216, 195, 5));
+$colors3:(rgb(214, 96, 96),rgb(184, 0, 0));
+$colors4:(rgb(255, 158, 242),rgb(245, 71, 207));
+$colors5:(rgb(153, 153, 153),rgb(54, 54, 54));
+$colors6:(rgb(216, 84, 84),rgb(100, 29, 29));
+
+
+@mixin gradient($colors) { 
+    background: -webkit-linear-gradient($colors);
+    background: -moz-linear-gradient($colors);
+    background: -o-linear-gradient($colors);
+    background: linear-gradient($colors);  
+}
+
 body{
     width:100%;
     height:150vh;
@@ -76,22 +91,22 @@ body{
                 }
             }
             #ficha1{
-                background: linear-gradient(rgb(142, 177, 255),rgb(41, 77, 177));
+                @include gradient ($colors1);
             }   
             #ficha2{
-                background: linear-gradient(rgb(245, 243, 141),rgb(216, 195, 5))
+                @include linear-gradient($colors2);
             }
             #ficha3{
-                background: linear-gradient(rgb(214, 96, 96),rgb(184, 0, 0))
+                @include linear-gradient($colors3);
             }
             #ficha4{
-                background: linear-gradient(rgb(255, 158, 242),rgb(245, 71, 207))
+                @include linear-gradient($colors4);
             }
             #ficha5{
-                background: linear-gradient(rgb(153, 153, 153),rgb(54, 54, 54))
+                @include linear-gradient($colors5);
             }
             #ficha6{
-                background: linear-gradient(rgb(216, 84, 84),rgb(100, 29, 29));
+                @include linear-gradient($colors6);
                 #eggman{
                     background-color: white;
                 }
