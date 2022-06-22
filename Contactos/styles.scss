@@ -1,0 +1,84 @@
+$fuente:'Koulen', cursive;
+
+*{
+    padding:0%;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+    background:linear-gradient(rgb(20, 92, 160),rgb(190, 25, 52));
+    header{   
+        .row{
+            background-color: black;
+            .navitem{
+                font-family:$fuente;
+                color: white;
+                font-size: 2.4rem;
+                &:hover{
+                    color: rgb(9, 86, 230);
+                }
+            }
+        }
+    }
+    main{
+        fieldset{
+            background-color: #be0505;;
+            border: black solid 8px;
+            border-radius: 10px;
+            width: 44%;
+            margin: 1.4%;
+            h2{    
+                margin: 1%;
+                margin-left:2.5%;
+                font-family: 'Koulen';
+                font-size: 40px;
+                color: rgb(247, 247, 247);
+                font-weight: lighter;
+                font-style:inherit;
+            }
+            .form-group{
+                font-family: 'Koulen';
+                font-size: 26px;
+                color: rgb(247, 247, 247);
+                font-weight: lighter;
+                font-style:inherit;
+                margin: 1.5%;
+                .form-control{
+                font-size: 26px;
+                }
+                #paises{
+                    font-family: 'Koulen';
+                    font-size: 26px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 2%;
+                    .countries{
+                        margin-top: -0.7%;
+                    }
+                }
+                .enviar{
+                    font-size: 22px;
+                }
+            }         
+        }
+    }
+footer{
+    font-family: $fuente;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style:inherit;
+    color: rgb(211, 211, 211);
+    background-color: black;
+    position:absolute;
+    width:100%;
+    .hola{
+        display:flex;
+        justify-content: flex-end;
+        margin-left:94%;
+        bottom: 0%;
+        position:fixed;
+        }    
+    }
+}
+
