@@ -20,7 +20,7 @@ $colors6:(rgb(216, 84, 84),rgb(100, 29, 29));
     background: linear-gradient($colors);  
 }
 
-body{
+.bpersonajes{
     width:100%;
     height:150vh;
     overflow-x:hidden;
@@ -94,19 +94,19 @@ body{
                 @include gradient ($colors1);
             }   
             #ficha2{
-                @include linear-gradient($colors2);
+                @include gradient($colors2);
             }
             #ficha3{
-                @include linear-gradient($colors3);
+                @include gradient($colors3);
             }
             #ficha4{
-                @include linear-gradient($colors4);
+                @include gradient($colors4);
             }
             #ficha5{
-                @include linear-gradient($colors5);
+                @include gradient($colors5);
             }
             #ficha6{
-                @include linear-gradient($colors6);
+                @include gradient($colors6);
                 #eggman{
                     background-color: white;
                 }

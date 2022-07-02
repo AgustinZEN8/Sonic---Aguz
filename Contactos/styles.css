@@ -3,35 +3,36 @@
   margin: 0%;
 }
 
-body {
+.bcontactos {
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#145ca0), to(#be1934));
   background: linear-gradient(#145ca0, #be1934);
 }
 
-body header .row {
+.bcontactos header .row {
   background-color: black;
 }
 
-body header .row .navitem {
+.bcontactos header .row .navitem {
   font-family: "Koulen", cursive;
   color: white;
   font-size: 2.4rem;
 }
 
-body header .row .navitem:hover {
+.bcontactos header .row .navitem:hover {
   color: #0956e6;
 }
 
-body main fieldset {
+.bcontactos main fieldset {
   background-color: #be0505;
   border: black solid 8px;
   border-radius: 10px;
   width: 44%;
   margin: 1.4%;
+  margin: 2% auto;
 }
 
-body main fieldset h2 {
+.bcontactos main fieldset h2 {
   margin: 1%;
   margin-left: 2.5%;
   font-family: 'Koulen';
@@ -41,7 +42,7 @@ body main fieldset h2 {
   font-style: inherit;
 }
 
-body main fieldset .form-group {
+.bcontactos main fieldset .form-group {
   font-family: 'Koulen';
   font-size: 26px;
   color: #f7f7f7;
@@ -50,11 +51,11 @@ body main fieldset .form-group {
   margin: 1.5%;
 }
 
-body main fieldset .form-group .form-control {
+.bcontactos main fieldset .form-group .form-control {
   font-size: 26px;
 }
 
-body main fieldset .form-group #paises {
+.bcontactos main fieldset .form-group #paises {
   font-family: 'Koulen';
   font-size: 26px;
   display: -webkit-box;
@@ -67,15 +68,43 @@ body main fieldset .form-group #paises {
   gap: 2%;
 }
 
-body main fieldset .form-group #paises .countries {
+.bcontactos main fieldset .form-group #paises .countries {
   margin-top: -0.7%;
+  margin: 0;
+  border-radius: 4px;
+  background: #f8f8f8;
+  color: #888;
+  border: none;
+  outline: none;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  text-align: center;
+  width: 24%;
+  height: 110%;
 }
 
-body main fieldset .form-group .enviar {
+.bcontactos main fieldset .form-group .enviar {
   font-size: 22px;
 }
 
-body footer {
+.bcontactos main #redes {
+  margin: 2% auto;
+  background-color: #be0505;
+  border: black solid 8px;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.bcontactos main #redes .icono {
+  background-color: white;
+  border: white solid 9px;
+  border-radius: 50%;
+}
+
+.bcontactos footer {
   font-family: "Koulen", cursive;
   font-size: 18px;
   font-weight: lighter;
@@ -84,17 +113,61 @@ body footer {
   background-color: black;
   position: absolute;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-body footer .hola {
+.bcontactos footer .hola {
+  width: 100%;
+  bottom: 0%;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-left: 94%;
-  bottom: 0%;
-  position: fixed;
+}
+
+@media (max-width: 768px) {
+  body main #redes {
+    width: 80% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main #redes .redes__item {
+    width: 25%;
+    background-color: none;
+  }
+}
+
+@media (max-width: 1293px) {
+  body main fieldset {
+    width: 80%;
+    margin: 1% auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  body main #redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 60%;
+  }
+  body footer .hola {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

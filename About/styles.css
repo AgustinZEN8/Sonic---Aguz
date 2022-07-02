@@ -3,27 +3,27 @@
   margin: 0%;
 }
 
-body {
+.babout {
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#145ca0), to(#be1934));
   background: linear-gradient(#145ca0, #be1934);
 }
 
-body header .row {
+.babout header .row {
   background-color: black;
 }
 
-body header .row .navitem {
+.babout header .row .navitem {
   font-family: "Koulen", cursive;
   color: white;
   font-size: 2.4rem;
 }
 
-body header .row .navitem:hover {
+.babout header .row .navitem:hover {
   color: #0956e6;
 }
 
-body main .hola {
+.babout main .hola {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,7 +33,7 @@ body main .hola {
   margin-top: 1.95%;
 }
 
-body main .hola #sega {
+.babout main .hola #sega {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +44,7 @@ body main .hola #sega {
   background-color: #444444;
 }
 
-body main fieldset {
+.babout main fieldset {
   background: grey;
   border: 5px solid black;
   border-radius: 15px;
@@ -54,14 +54,14 @@ body main fieldset {
   margin: 3%;
 }
 
-body main fieldset .texto {
+.babout main fieldset .texto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 10px auto;
 }
 
-body main fieldset .texto p {
+.babout main fieldset .texto p {
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 17px;
@@ -73,7 +73,7 @@ body main fieldset .texto p {
   margin: 20px;
 }
 
-body footer {
+.babout footer {
   font-family: "Koulen", cursive;
   font-size: 18px;
   font-weight: lighter;
